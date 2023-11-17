@@ -23,12 +23,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](https://i.imgur.com/Essnrlw.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/chat-app-illustration-using-vanilla-css-EgkK4kbrCe](https://www.frontendmentor.io/solutions/chat-app-illustration-using-vanilla-css-EgkK4kbrCe)
+- Live Site URL: [https://chat-app-intro.netlify.app/](https://chat-app-intro.netlify.app/)
 
 ## My process
 
