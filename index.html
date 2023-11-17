@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <title>Frontend Mentor | Chat app CSS illustration</title>
+    <meta name="description" content="The challenge is to build out this feature illustration using HTML & CSS and get it looking as close to the design as possible">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <main class="main-container">
+      <div class="chat-container">
+        <div class="chat-header">
+          <button aria-label="Go back">
+            <img src="/icon-back.svg" alt="Back icon" height="10" aria-hidden="true" />
+          </button>
+          <img src="/avatar.jpg" class="avatar" alt="Profile avatar" />
+          <div class="author-details">
+            <p class="author-name">Samuel Green</p>
+            <p class="author-status">Available to Walk</p>
+          </div>
+          <button aria-label="Toggle menu" class="menu-button">
+            <img src="/icon-menu.svg" alt="Back icon" width="2" aria-hidden="true" />
+          </button>
+        </div>
+        <div class="content-container">
+          <div class="chats-container">
+            <div class="message-group message-group-sender">
+              <p class="message">That sounds great. I’d be happy to discuss more.</p>
+              <p class="message">Could you send over some pictures of your dog, please?</p>
+            </div>
+            <div class="message-group message-group-self">
+              <div class="message-images">
+                <img src="/dog-image-1.jpg" alt="Dog image 1" class="message-images-item" />
+                <img src="/dog-image-2.jpg" alt="Dog image 2" class="message-images-item" />
+                <img src="/dog-image-3.jpg" alt="Dog image 3" class="message-images-item" />
+              </div>
+              <p class="message">Here are a few pictures. She’s a happy girl!</p>
+              <p class="message">Can you make it?</p>
+            </div>
+            <div class="message-group message-group-sender">
+              <p class="message">She looks so happy! The time we discussed works. How long shall I take her out for?</p>
+              <div class="message message-summary">
+                <img src="/icon-circle.svg" alt="Circle icon" aria-hidden="true" />
+                <p>30 minute walk</p>
+                <p class="message-right">$29</p>
+              </div>
+              <div class="message message-summary">
+                <img src="/icon-circle.svg" alt="Circle icon" aria-hidden="true" />
+                <p>1 hour walk</p>
+                <p class="message-right">$49</p>
+              </div>
+            </div>
+          </div>
+          <div class="bottom-container">
+            <input type="text" placeholder="Type a message…" class="message-input" />
+            <button class="send-button" aria-label="Send the message">
+              <img src="/icon-send.svg" alt="Send icon" aria-hidden="true" />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="info-container">
+        <h1 class="info-title">Simple booking</h1>
+        <p class="info-text">Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements and make bookings. Once the walk has been completed you can rate your walker and book again all through the chat.</p>
+      </div>
+    </main>
+  </body>
+</html>
