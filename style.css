@@ -6,6 +6,7 @@
   --color-pinkish-gray: #a39da9;
   --color-very-light-purple: #a39da9;
   --gradient-violet: linear-gradient(225deg, #e844ff 0%, #8739ff 100%);
+  --gradient-violet-reversed: linear-gradient(225deg, #8739ff 0%, #e844ff 100%);
   --color-gray: #c5c9cc;
   --chat-sender-bg: #eee5f4;
   --chat-sender-text: #9341c8;
@@ -177,7 +178,7 @@ button {
 }
 
 .message-group-sender .message-summary {
-  background: var(--gradient-violet);
+  background: var(--gradient-violet-reversed);
   display: flex;
   align-items: center;
   gap: 0.5rem;
